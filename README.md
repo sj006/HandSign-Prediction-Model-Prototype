@@ -21,7 +21,7 @@ This project is a **prototype** that predicts **alphabets from American Sign Lan
 
 ```
 📁 ASL-HandSign-Predictor/
-├── dataset/                 # Folder containing ASL images for training
+├── ASL_Dataset/                 # Folder containing ASL images for training
 ├── ModelTrainer.py          # Script to train the model on ASL dataset
 ├── HandsignPrediction.py    # Script for live hand gesture prediction using webcam
 ├── asl_model.h5             # Trained model file (generated after training)
@@ -49,7 +49,7 @@ This installs required libraries like OpenCV, MediaPipe, NumPy, etc.
 
 ### 🧠 Step 2: Train the Model
 
-Use the provided ASL dataset or your own. Place the images inside the `dataset/` folder, organized in subfolders (A-Z).
+Use the provided ASL dataset or your own. Place the images inside the `ASL_Dataset/` folder, organized in subfolders (A-Z).
 
 Run the model training script:
 
@@ -60,7 +60,7 @@ python ModelTrainer.py
 This will:
 - Load and preprocess the dataset.
 - Train the model on the ASL gestures.
-- Save the trained model to `model.pkl`.
+- Save the trained model to `asl_model.h5`.
 
 ---
 

@@ -21,7 +21,7 @@ This project is a **prototype** that predicts **alphabets from American Sign Lan
 
 ```
 📁 ASL-HandSign-Predictor/
-├── ASL_Dataset/                 # Folder containing ASL images for training
+├── ASL_Dataset/             # Folder containing ASL images for training
 ├── ModelTrainer.py          # Script to train the model on ASL dataset
 ├── HandsignPrediction.py    # Script for live hand gesture prediction using webcam
 ├── asl_model.h5             # Trained model file (generated after training)
